@@ -55,7 +55,7 @@ const Landing = () => {
       longitude : result.lon.toString().slice(0, 5),
     });
         fetchData(lat, lon);
-         this.render();
+         this.forceUpdate();
         
 
         
