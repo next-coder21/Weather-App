@@ -42,7 +42,7 @@ const Landing = () => {
   
      
   
-      const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=f3ac4b366ed40ea65ea8a1c88f946f02`; 
+      const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=f3ac4b366ed40ea65ea8a1c88f946f02`; 
       const response = await fetch(apiUrl);
   
       
