@@ -87,6 +87,7 @@ const Landing = () => {
   
       setDatas(data);
       setPollution(pollutionData);
+      this.render();
   
       setTimeout(() => {
         setLoading(false);
