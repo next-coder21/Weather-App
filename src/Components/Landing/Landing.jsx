@@ -55,6 +55,7 @@ const Landing = () => {
       longitude : result.lon.toString().slice(0, 5),
     });
         fetchData(lat, lon);
+         this.render();
         
 
         
@@ -87,7 +88,7 @@ const Landing = () => {
   
       setDatas(data);
       setPollution(pollutionData);
-      this.render();
+     
   
       setTimeout(() => {
         setLoading(false);
